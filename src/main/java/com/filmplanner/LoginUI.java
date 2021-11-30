@@ -1,3 +1,5 @@
+package com.filmplanner;
+
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
@@ -50,8 +52,7 @@ public class LoginUI extends Application  {
         primaryStage.setAlwaysOnTop(true);
     }
 
-
     public static void main(String[] args) {
-        launch(args);
+        launch();
     }
 }
