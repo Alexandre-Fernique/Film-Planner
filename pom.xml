@@ -37,7 +37,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>${javafx.maven.plugin.version}</version>
                 <configuration>
-                    <mainClass>org.openjfx.App</mainClass>
+                    <mainClass>org.openjfx.App</mainClass> <!-- Il faut scpécifié la main class ici -->
                 </configuration>
             </plugin>
         </plugins>
