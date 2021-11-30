@@ -1,6 +1,7 @@
 package com.filmplanner.dao;
 
 import com.filmplanner.User;
+import com.filmplanner.framework.UserDAO;
 
 public class PostgreUserDAO implements UserDAO {
 
